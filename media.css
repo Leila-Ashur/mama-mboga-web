@@ -1,0 +1,289 @@
+@media screen and (max-width: 600px) {
+  .header1, .head2 {
+      flex-direction: column;
+      padding: 2rem;
+  }
+  .logo {
+      margin-bottom: 1rem;
+  }
+  .searchB #search-box {
+      font-size: 1.5rem;
+  }
+  .header1 .label {
+      font-size: 2rem;
+      line-height: 3rem;
+  }
+  .header2 .navbar a {
+      padding: 2rem 1rem;
+      font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar a {
+      margin: 1em;
+  }
+  .head2 .icons a {
+      font-size: 2rem;
+      margin: 0.5em;
+  }
+  #menu-bar {
+      display: block;
+  }
+  .home {
+      flex-direction: column;
+  }
+  .home .image {
+      padding-top: 2rem;
+  }
+  .img {
+      width: 100%;
+  }
+  .home .content span,
+  .home .content h2 {
+      font-size: 2rem;
+  }
+  .vege {
+      flex-direction: column;
+      margin-left: 0;
+      margin-bottom: 2rem;
+  }
+  .one {
+      border-radius: 0;
+  }
+  .gen {
+      flex-direction: column;
+      margin-left: 0;
+  }
+  .img1,
+  .img2 {
+      border: none;
+  }
+  .name,
+  .phone,
+  .password {
+      margin-left: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header1 {
+      padding: 2rem 5%;
+  }
+  .logo {
+      font-size: 2.5rem;
+      width: 80px;
+      height: 80px;
+  }
+  .logo i {
+      padding-right: -4rem;
+  }
+  .searchB {
+      height: 1rem;
+  }
+  .searchB #search-box {
+      font-size: 1rem;
+  }
+  /* .header1 .label {
+      font-size: 2rem;
+      line-height: 4rem;
+  } */
+  .head2 {
+      padding: 2rem 5%;
+  }
+  .head2 .navbar a {
+      padding: 4rem 1.5rem;
+      font-size: 1.5rem;
+  }
+  #menu-bar {
+      font-size: 2.5rem;
+  }
+  section {
+      padding: 2rem 5%;
+  }
+  .home .image {
+      padding-top: 3rem;
+  }
+  .home .content span,
+  .home .content h2 {
+      font-size: 2rem;
+  }
+  .vege {
+      gap: 30px;
+      margin-left: 0;
+      margin-bottom: 2rem;
+  }
+  .one,
+  .banana,
+  .tomatoe,
+  .sukuma,
+  .cabbages,
+  .butternut {
+      border-radius: 0;
+  }
+  .gen,
+  .ex {
+      gap: 30px;
+      margin-left: 0;
+  }
+  .img1,
+  .img2 {
+      border: none;
+  }
+  .name,
+  .phone,
+  .password,
+  .message {
+      margin-left: 0;
+  }
+  .contact {
+      margin-left: 100px;
+      margin-top: 50px;
+      font-size: 30px;
+  }
+  .span {
+      color: green;
+  }
+}
+@media screen and (max-width: 768px) {
+  .head2 {
+    padding: 2rem 5%;
+  }
+  .head2 .navbar a {
+    padding: 2rem 1rem;
+  }
+  .home {
+    flex-direction: column;
+  }
+  .home .image {
+    padding-top: 3rem;
+  }
+  .vege {
+    flex-direction: column;
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+  .gen {
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .contact {
+    margin-left: 0;
+    margin-top: 2rem;
+    font-size: 2rem;
+  }
+  .name,
+  .phone,
+  .password,
+  .message {
+    margin-left: 0;
+  }
+  .deal .cont .title {
+    font-size: 3rem;
+  }
+  .deal .cont p {
+    font-size: 1.5rem;
+  }
+  .deal .cont .count-down {
+    flex-wrap: wrap;
+  }
+  .fl,
+  .ex {
+    flex-direction: column;
+    gap: 2rem;
+    margin-left: 0;
+  }
+  .icons a {
+    font-size: 2rem;
+  }
+  .contact {
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+    @media only screen and (max-width: 600px) {
+        .contact {
+            margin-left: 10px;
+            margin-top: 20px;
+            font-size: 24px;
+        }
+        .name,
+        .phone,
+        .password,
+        .message {
+            margin-left: 10px;
+            font-size: 24px;
+        }
+        #enter-name,
+        #phone-number,
+        #enter-password,
+        #enter-message {
+            width: 80%;
+            padding-left: 10px;
+            margin-top: 10px;
+        }
+        .btn2 {
+            margin-left: 10px;
+            padding: 5px 10px;
+            font-size: 16px;
+        }
+
+.lap{
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+    margin-left: 10px;
+    width: 20px;
+}
+
+
+.apart{
+    display: flex;
+    flex-direction: column;
+}
+
+.info{
+    margin-left: 10px;
+    margin-top: 0px;
+    font-size: px;
+}
+
+.mv{
+    margin-right: 0px;
+}
+
+.methodpay{
+    margin-left: 60PX;
+}
+
+.methodpay{
+    margin-left: 60PX;
+}
+
+.pay{
+    margin-left: 60px;
+    padding: 20px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: darkgreen;
+}
+
+.apples{
+    /* background-color: whitesmoke; */
+    /* width: 200px; */
+    border-radius: 10px;
+  }
+
+
+
+    }
+    
+   
+}
+
+
+
+
+
+
+
+
