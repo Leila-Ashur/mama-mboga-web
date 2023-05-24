@@ -13,6 +13,8 @@
       right: 0px;
       top: 0px;
     }
+
+  
     .nav>.nav-btn>label {
       display: inline-block;
       width: 50px;
@@ -117,37 +119,24 @@
           align-items: center;
           height: auto;
       }
-  
-      #brand {
-          margin-bottom: 10px;
-      }
+
      
         ul {
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
-    
+/*     
         ul li {
             margin: 5px 0;
-        }
+        } */
        
-          #hamburger-icon {
-              display: block;
-          }
-      
+         
           ul {
               display: none;
           }
       
-          .mobile-menu {
-              display: block;
-          }
-      
-          .mobile-menu li {
-              margin-bottom: 15px;
-          }
-      
+          
           .mar {
               margin-left: 0;
               margin-top: 0;
@@ -325,23 +314,8 @@
                         font-size: 25px;
                     }
                 }
-ul li:hover {
-    transform: scale(1.1);
-    transition: 0.3s;
-}
 
-#hamburger-icon {
-    margin: auto 0;
-    display: none;
-    cursor: pointer;
-}
 
-#hamburger-icon div {
-    width: 35px;
-    height: 3px;
-    background-color: white;
-    margin: 6
-}
 @media (max-width: 600px) {
     .login{
         font-size: 80px;
@@ -443,7 +417,7 @@ ul li:hover {
     display: flex;
     flex-direction: column;
      border: 20%; 
-    background-color: aliceblue;
+    background-color: white;
     margin-right: 2em;
      /* width: 100px;  */
 }
@@ -541,6 +515,27 @@ section {
 .span {
     color: green;
 }
+}
+
+
+ .green{
+     background-color: green;
+     border-radius: 5px;
+     height: 20px;
+     margin-left: 20px;
+     border: 2px solid green;
+     margin-top: -6px;
+     text-align: center;
+     /* padding: 1.5em 1em; */
+     font-weight: bold;
+     color: white;
+     font-size: 1em;
+     padding: 1.5em;
+ }
+
+#hj{
+  font-weight: normal;
+  font-size: 16px;
 }
   .home {
     flex-direction: column;

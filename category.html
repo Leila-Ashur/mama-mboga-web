@@ -12,32 +12,58 @@
     <link rel="stylesheet" href="/media.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <a href="/checkOut.html"></a>
-    <div class="head2">
+    <header>
+       
 
-        <div>
-            <img class="logo" src="/image/GREEN_BASKET-removebg-preview.png" alt="">
-            
-        </div>
+        <header>
+            <div id="brand"><a href="/">Green Basket</a></div>
+            <nav>
+              <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/category.html">Category</a></li>
+                <li><a href="/product.html">Products</a></li>
+                <li><a href="/Review.html">Review</a></li>
+               
+              </ul>
+            </nav>
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+              <ul class="mobile-menu">
+                <li><a href="/index.html">Home</a></li>
+            <li><a href="/category.html">Category</a></li>
+            <li><a href="/product.html">Products</a></li>
+            <li><a href="/Review.html">Review</a></li>
+                
+            </div>
+          </header>
+          <script src="/index.js"></script>
+
         
-       <!-- <div id="menu-bar"> <i class='bx bx-menu'></i></div> -->
-        <div class="navbar">
+        <!-- <nav>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/category.html">Category</a></li>
+            <li><a href="/product.html">Product</a></li>
+            <li><a href="/Review.html">Review</a></li>
+
             
-            <a href="/index.html">Home</a>
-            <!-- <a href="/login.html">A</a> -->
-            <a href="/category.html">Category</a>
-            <a href="/product.html">Product</a>
+          </ul>
+        </nav> -->
+        <!-- <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          <ul class="mobile-menu">
+            <li><a href="/home">Home</a></li>
+            <li><a href="/products">Products</a></li>
+            <li><a href="/about">About</a></li>
            
-            <a href="/Review.html">Review</a>
-
-
-      </div>
-        <div class="icons">
-            <a href="/product.html"><i class='bx bxs-cart'></i></a>
-            <a href="#"><i class='bx bxs-heart'></i></a>
-            <a href="/signUp.html"><i class='bx bxs-user'></i></a>
-
-        </div>
-</div>
+          </ul>
+        </div> -->
+      </header>
+      <script src="/index.js"></script>
 <br>
 <br>
 
@@ -115,7 +141,7 @@
                         <!-- <br> -->
                         <div class="details">
                             <h3>Tomatoes<h3>
-                            <span>upto 10% off</span>
+                            <span id="hj">upto 10% off</span>
                            
                                 <br>
                                 <br>
@@ -350,7 +376,7 @@
                                                         <br>
                                                         <br>
                                                         <br>
-                                                        <div class="details">
+                                                        <div class="">
                                                             <h3>Dragon</h3>
                                                             <span>upto 10% off</span>
                                                             <a href="#">
@@ -409,7 +435,7 @@
                                                     </div>
                                                     <div class="one">
                                                         <img src="/image/kiwi-removebg-preview.png" alt="">
-                                                        <div class="details">
+                                                        <div class="">
                                                             <h3>Kiwi</h3>
                                                             <span>upto 10% off</span>
                                                             <br>
@@ -421,12 +447,15 @@
                                                                 <br>
                                                                 <a href="/product.html"><i class='bx bxs-cart'></i></a> 
 
+                                                                <br><br><br>
+
                                                 
                                                         </div>
                                                     </div>
                 
     
                                                 </div>
+                                                <br><br>
                                                 <div class="footer">
                                                     made by theTech Squad | copyright 2023
                                                     </div>
